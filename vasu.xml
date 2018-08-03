@@ -1,0 +1,12 @@
+
+<suite name="Vasu">
+  <test  name="Regression">
+    <classes>
+      <class name="com.vasu.testng.AnnotationsTest"/>
+      <class name="com.vasu.testng.MultipleTestCases"/>
+      <class name="com.vasu.testng.FirstTestNgTest"/>
+      <class name="com.vasu.testng.BeforeTestAftertest"/>
+      
+    </classes>
+  </test> 
+</suite> 

@@ -1,0 +1,12 @@
+
+<suite name="SuiteLevel">
+  <test  name="NewToursTest">
+    <classes>
+
+      <class name="com.vasu.testng.FlightBooking"/>
+      <class name="com.vasu.testng.TicketCancellation"/>
+      
+      
+    </classes>
+  </test>
+</suite> 

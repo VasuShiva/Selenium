@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Shiva]">
+  <test name="Smoke(failed)">
+    <classes>
+      <class name="com.vasu.testng.BeforeTestAftertest">
+        <methods>
+          <include name="appClose"/>
+          <include name="applaunch"/>
+        </methods>
+      </class> <!-- com.vasu.testng.BeforeTestAftertest -->
+      <class name="com.vasu.testng.AnnotationsTest">
+        <methods>
+          <include name="before"/>
+          <include name="after"/>
+        </methods>
+      </class> <!-- com.vasu.testng.AnnotationsTest -->
+      <class name="com.vasu.testng.AppLoginTest">
+        <methods>
+          <include name="appLogin"/>
+        </methods>
+      </class> <!-- com.vasu.testng.AppLoginTest -->
+    </classes>
+  </test> <!-- Smoke(failed) -->
+</suite> <!-- Failed suite [Shiva] -->
